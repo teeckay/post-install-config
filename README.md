@@ -5,11 +5,6 @@
 <h1>osTicket - Post-Install Configuration</h1>
 This tutorial outlines the post-installation configuration of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -22,34 +17,101 @@ This tutorial outlines the post-installation configuration of the open-source he
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Also 1
-- Also 2
-- Also 3
-- Also 4
-- Also 5
+- Configure Roles in the Ticketing System.
+- Configure Departments in the Ticketing System.
+- Configure Teams in the Ticketing System.
+- Configure Agents in the Ticketing System.
+- Allow anyone to create tickets in the Ticketing System.
+- Configure Agents ( Workers ) in the Ticketing System.
+- Configure Users ( Customers ) in the Ticketing System.
+- Configure SLAs ( Service Level Agreements ) in the Ticketing System.
+- Configure Help Topics in the Ticketing System.
 
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![image](https://github.com/teeckay/post-install-config/assets/64244011/29cd8526-595b-4254-9388-c6f3632f7981)
+
 </p>
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let no one be born.
+After installation as seen above, I began by creating a new role called a Supreme Admin, in the Admin panel for the agents. I then added permissions for tickets, tasks and knowledge base for the new role as seen below. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![image](https://github.com/teeckay/post-install-config/assets/64244011/11626e5f-9891-47ee-809d-65732082860d)
+
+![image](https://github.com/teeckay/post-install-config/assets/64244011/e59963bf-dbd5-4c23-9fff-50819e89b069)
+
+
+
 </p>
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let no one be born.
+Next I created a Level II Support team.
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/teeckay/post-install-config/assets/64244011/3ec3a116-0f7f-4aa8-8fad-32d556cf44e2)
+  
 </p>
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let no one be born.
+Next, I created a new System Administrators Department.
 </p>
 <br />
+<p>
+  
+![image](https://github.com/teeckay/post-install-config/assets/64244011/acd20a00-d716-4531-bd3d-32a7ee8dc1d5)
+
+</p>
+
+<p>
+Next, I added a new agent, Jane Doe, and put them in the system administrators department and the level ll Support Team. 
+</p>
+<br />
+
+<p>
+  
+![image](https://github.com/teeckay/post-install-config/assets/64244011/ffae04cf-ea08-49fe-b183-e1f4732b1dd1)
+
+</p>
+
+<p>
+ Next, I added a new user, Karen Karen, using the agent panel as an agent.
+
+</p>
+<br />
+
+<p>
+
+![image](https://github.com/teeckay/post-install-config/assets/64244011/e7a92a52-4b14-4e26-990f-bd334879fac8)
+
+
+</p>
+
+<p>
+Next, I added a new SLA plan to be used to handle tickets. In this case, A Sev-A SLA plan with a one hour grace period and a 24 hour schedule.
+</p>
+<br />
+
+<p>
+
+![image](https://github.com/teeckay/post-install-config/assets/64244011/417c0126-851b-422c-a745-ea53faf4925b)
+
+
+</p>
+<p>
+Next, I created a new Business Critical Outage help topic to help guide the gathered information from a user and how the ticket is routed and assigned afterwards.
+</p>
+<br />
+
+<p>
+
+![image](https://github.com/teeckay/post-install-config/assets/64244011/42e734a9-7481-430d-96e8-a1e5a7c4d632)
+
+
+</p>
