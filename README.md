@@ -115,3 +115,8 @@ Next, I created a new Business Critical Outage help topic to help guide the gath
 
 
 </p>
+
+<p>
+All done with osTicket configuration and next, triaging and solving tickets.
+</p>
+<br />
